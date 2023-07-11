@@ -13,7 +13,7 @@ pipeline {
         }
         stage("Printing Sample Message") {
             steps {
-                echo "Hello, Starting CI CD pipeline"
+                echo "Hello, Starting CI CD pipeline- Push"
             }
         }
     }
