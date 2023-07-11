@@ -19,7 +19,7 @@ pipeline {
         stage("Building image with docker") {
             steps {
                 echo "Creating docker image"
-                sh "docker build -t portfolio_v1 ."
+                //sh "docker build -t portfolio_v1 ."
             }
         }
         stage("Running container") {
