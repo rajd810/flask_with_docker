@@ -25,7 +25,7 @@ pipeline {
         stage("Running container") {
             steps {
                 echo "Creating container"
-                sh "docker run -p 5001:5001 -d portfolio_v1"
+                //sh "docker run -p 5001:5001 -d portfolio_v1"
             }
         }
     }
