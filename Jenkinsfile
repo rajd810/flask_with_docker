@@ -16,5 +16,11 @@ pipeline {
                 echo "Hello, Starting CI CD pipeline- Push"
             }
         }
+        stage("Building image with docker") {
+            steps {
+                echo "Creating docker image"
+                sh "sudo docker image build -t portfolio_v1 ."
+            }
+        }
     }
 }
