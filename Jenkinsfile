@@ -22,5 +22,11 @@ pipeline {
                 sh "docker build -t portfolio_v1 ."
             }
         }
+        stage("Running container") {
+            steps {
+                echo "Creating container"
+                sh "docker run -p 5001:5001 -d portfolio_v1"
+            }
+        }
     }
 }
