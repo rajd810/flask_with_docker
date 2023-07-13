@@ -1,10 +1,89 @@
 {% extends 'base.html' %}
 
 {% block main %}
-
-<div class="section-title">
-  <h2>About</h2>
-  <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+<section>
+<main class="px-3">
+<div class="accordion px-5" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header bg-info">
+      <button class="accordion-button bg-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        <h4> Axis Bank Ltd  </h4>
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">  
+      <div class="accordion-body">
+          <ul>
+            <li class="list-group-item"> <p class="text-end"> Mumbai, India - [ May 2022 - Present ] </p></li>
+            <li> <p class="text-start">Created and executed deployment automation procedures that minimized errors by 80% and raised the frequency of releases by 89%.</p> </li>
+            <li> <p class="text-start">Developed automation code for building 70+ pipelines, Kubernetes clusters, and cloud infrastructure, maximizing 60% efficiency.</p> </li>
+            <li> <p class="text-start">Created and deployed Docker containers to break up 10+ monolithic apps into Microservices, enhancing developer workflow and automated the process.</p> </li>
+            <li> <p class="text-start">Managed provisioning of AWS infrastructures using Terraform, Also worked with AWS services such as EC2, VPC, RDS, Route 53 & S3 Buckets.</p> </li>
+          </ul> 
+      </div>
+    </div>
+  </div>
 </div>
+<div class="accordion px-5" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header bg-info">
+      <button class="accordion-button bg-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        <h4> Capgemini India Pvt Ltd </h4>
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">  
+      <div class="accordion-body">
+        <ul>
+          <li class="list-group-item"> <p class="text-end"> Mumbai, India - [ Apr 2021 - Apr 2022 ]</p></li>
+          <li> <p class="text-start">Designed and configured pipeline stages for code build, code test, code analysis, and code deployment, ensuring high-quality software delivery.</p> </li>
+          <li> <p class="text-start">Implemented Kubernetes clusters on AWS, resulting in improved scalability and reduced infrastructure costs.</p> </li>
+          <li> <p class="text-start">Created Docker images and managed their build and upload processes using Jenkins, facilitating containerized deployments.</p> </li>
+          <li> <p class="text-start">Proficient in scheduling jobs using Jenkins and well-versed in Ansible, including writing playbooks for infrastructure automation.</p> </li>
+        </ul> 
+      </div>
+    </div>
+  </div>
+</div>
+<div class="accordion px-5" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header bg-info">
+      <button class="accordion-button bg-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        <h4> Tata Consultancy Services </h4> 
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">  
+      <div class="accordion-body">
+        <ul>
+          <li class="list-group-item"> <p class="text-end"> Mumbai, India - [ Sep 2016 - Mar 2021 ]</p></li>
+          <li> <p class="text-start">Created and executed deployment automation procedures that minimized errors by 80% and raised the frequency of releases by 89%.</p> </li>
+          <li> <p class="text-start">Developed automation code for building 70+ pipelines, Kubernetes clusters, and cloud infrastructure, maximizing 60% efficiency.</p> </li>
+          <li> <p class="text-start">Created and deployed Docker containers to break up 10+ monolithic apps into Microservices, enhancing developer workflow and automated the process.</p> </li>
+          <li> <p class="text-start">Managed provisioning of AWS infrastructures using Terraform, Also worked with AWS services such as EC2, VPC, RDS, Route 53 & S3 Buckets.</p> </li>
+        </ul> 
+      </div>
+    </div>
+  </div>
+</div>
+<div class="accordion px-5" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header bg-info">
+      <button class="accordion-button bg-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        <h4> Eclerx Services Ltd </h4> 
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">  
+      <div class="accordion-body">
+        <ul>
+          <li class="list-group-item"> <p class="text-end"> Mumbai, India - [ Jul 2013 - Sep 2016 ]</p></li>
+          <li> <p class="text-start">Created HTML markup templates, updated and modified existing CSS code and maintained HTML content on a daily basis. </p></li>
+          <li> <p class="text-start">Used JavaScript when developing page navigation, form validation, time and date stamps. Managed website links to videos and interactive media through constants. Designed and updated pages on share location website and department intranet and processed data in content manage system.</p></li>
+          <li> <p class="text-start">Content management system is a software application or platform that allows users to create, manage, and publish digital content on the web.</p> </li>
+          <li> <p class="text-start">Familiarity with web development frameworks like Django or Flask and good understanding of software development lifecycle (SDLC). </p></li>
+        </ul> 
+      </div>
+    </div>
+  </div>
+</div>
+</main>
+</section>
 
 {% endblock %}

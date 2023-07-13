@@ -11,6 +11,9 @@
   color: #333;
   text-shadow: none; /* Prevent inheritance from `body` */
 }
+h3 {
+  text-align: left;
+}
 
 
 /*
